@@ -33,7 +33,7 @@ const CardData = [
       "videourl": "https://youtube.com/playlist?list=UUyWU0nm8LLVU9qeK3uMqX7Q",
       "price": "$50",
       "coverImg": "dreamfields.jpg",
-      "category": "Musica Electronica",
+      "category": "Electronica",
       "location": "Mexico",
       "locationImg": "mexiflag.jpg",
       "openSpots": 1000,

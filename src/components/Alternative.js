@@ -20,7 +20,7 @@ function Alternative() {
         <Navbar />
          <h4>Escoje tu categoria? ? </h4>
       <ButtonTreeCategories/>
-
+      <h1 className="slidertext">Presiona un Link para visitar la red social del artista</h1>
             <section className="cards-list">
                {cards10}
             </section>

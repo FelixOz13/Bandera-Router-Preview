@@ -22,7 +22,7 @@ function Clubmusic() {
         <Navbar />
          <h4>Escoje tu categoria? ? </h4>
          <ButtonTreeCategories/>
-
+<h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
             <section className="cards-list">
                {cards8}
             </section>

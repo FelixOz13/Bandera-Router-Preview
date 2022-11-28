@@ -2,7 +2,7 @@ import ReactPlayer from 'react-player/lazy'
 import Clients from './Clients'
 import LikeButtons from './LikeButtons'
 import StarRating from './StarRating'
-import { GiBlackFlag } from 'react-icons/gi';
+
 import { FaFacebook } from 'react-icons/fa';
 import { FaSpotify } from 'react-icons/fa';
 import { FaTwitterSquare } from 'react-icons/fa';
@@ -17,7 +17,7 @@ import { FaNapster } from 'react-icons/fa';
 import Comments from "../Comments/Comments";
 import { BsFillPlayCircleFill } from 'react-icons/bs';
 import { FaShareSquare } from 'react-icons/fa';
-import { Link } from 'react-router-dom'
+
 import { BsGlobe } from 'react-icons/bs'
 
 
@@ -73,12 +73,6 @@ function Card(props) {
         currentUserId="1"
           />
       </div>
-      <div className="slidertextdiv">
-            <h1 className="slidertext"> Accede a la Bandera Musical</h1>
-      </div>
-      
-      <Link className="btn2 btn-warning" to={props.item.bandera}><GiBlackFlag /></Link>
-
       <div className="slidertextdiv">
             <h1 className="slidertext">Presiona un Link para visitar la red social del artista</h1>
       </div>
