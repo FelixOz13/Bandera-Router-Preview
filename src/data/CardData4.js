@@ -684,7 +684,7 @@ const CardData4 = [
   "videourl": "https://youtube.com/playlist?list=PLvHf4SnA7f8uK47aAgk6EzgbNcRxK98LM",
   "price": "$50",
   "coverImg": "madonna.jpg",
-  "category": "Romantic",
+  "category": "Pop",
   "location": "USA",
   "locationImg": "usaflag.jpg",
   "openSpots": null,
