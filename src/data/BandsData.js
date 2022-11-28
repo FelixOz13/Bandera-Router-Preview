@@ -1862,9 +1862,7 @@ const BandsData = [
     "napster": "https://web.napster.com/artist/ramon-ayala"
 }
 ,    
-       
-        
-, {
+ {
    "id":186,
    "title":"Reyli",
    "description":"Reyli Barba Arrocha es un cantautor y actor mexicano. Es conocido por haber sido el primer vocalista de la agrupación Elefante; siendo reemplazado por Jorge Guevara a partir de 2004. Desde su separación del grupo, trabaja como solista..",

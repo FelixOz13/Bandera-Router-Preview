@@ -47,10 +47,11 @@ section {
   background-color: black;
   position: absolute;
 }
-.entrytext{
-  color: goldenrod;
-  font-family:'Water Brush';
-  font-size: 4rem;
+.headertext{
+  color: gold;
+  font-family:'Henny Penny';
+  font-size: 1.5rem;
+  margin-top: 10px;
 }
 .entrytext2 {
   color: green;

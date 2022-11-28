@@ -22,7 +22,7 @@ function Home() {
   return (
      <div>
       <Navbar/>
-      <h4> Hola Paisano, Bienvenido a Bandera Musical!!!, Escoje el tipo de musica que mas te gusta`???</h4>
+      <h4 className="headertext"> Hola Paisano, Bienvenido a Bandera Musical!!!, Escoje el tipo de musica que mas te gusta`???</h4>
        <ButtonTreeCategories/>
       <div className="hero">
         <h4 className="headertext"> Tal vez prefieras un Arista en Especial`???</h4>
