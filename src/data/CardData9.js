@@ -26,7 +26,63 @@ const CardData9 = [
    "tiktok":"https://www.tiktok.com/@losangelesazules_fans?lang=es",
    "napster": "https://mx.napster.com/artist/los-angeles-azules",
    "bandera":"/angelesazules"
+  }, {
+    "id": 176,
+    "title": "La Sonora Dinamita",
+    "description": "La Sonora Dinamita es una agrupación Mexicana y Colombiana exponente de música tropical, principalmente de la cumbia. Se fundó en 1960, en Medellín, Colombia, por iniciativa de Antonio Fuentes, con la voz líder del fallecido cantante Lucho Argaín colombiano naturalizado mexicano. En la actualidad han vendido entre 45 y 50 millones de copias en todo el mundo..",
+
+    "videourl": "https://youtube.com/playlist?list=PLF-cRDh2mrlUaEUi8KFNbN1T2oTNgZvDH",
+    "price": "$50",
+    "coverImg": "SonoraDinamita.jpg",
+    "category": "Cumbia",
+    "location": "Mexico",
+    "locationImg": "mexiflag.jpg",
+    "openSpots": null,
+    "likes": 1000,
+    "websiteurl": "http://www.originalsonoradinamita.com/",
+    "youtube": "https://www.youtube.com/channel/UCE_KPQxpcMDtV2zX1ru24Zg",
+    "facebook": "https://www.facebook.com/originalsonoradinamita",
+    "instagram": "https://www.instagram.com/sonora_dinamita/",
+    "twitter": "https://twitter.com/dinamitaonline",
+    "spotify": "https://open.spotify.com/artist/13or1Wf6ipcvSIiurZATvw",
+    "deezer": "https://www.deezer.com/mx/artist/616908",
+    "apple": "https://music.apple.com/mx/artist/la-sonora-dinamita/918315916",
+    "soundcloud": "https://soundcloud.com/lasonoradinamita",
+    "wiki": "https://en.wikipedia.org/wiki/La_Sonora_Dinamita",
+    "ticketmaster": "https://www.ticketmaster.com.mx/la-sonora-dinamita-boletos/artist/755214",
+    "tidal": "https://listen.tidal.com/artist/3609831",
+    "tiktok": "https://www.tiktok.com/@lasonoradinamitaoficial",
+    "napster": "https://web.napster.com/artist/la-sonora-dinamita"
   },
+  {
+    "id": 177,
+    "title": "Celso Piña",
+    "description": "Celso Piña Arvizu (Monterrey; 6 de abril de 1953-ibídem. 21 de agosto de 2019) fue un cantante, compositor y acordeonista mexicano de música de distintos géneros. Fue pionero y uno de los principales exponentes en la composición e interpretación de música colombiana como cumbia colombiana y vallenato en su ciudad natal y su posterior expansión al norte de México y el sur de los Estados Unidos. También protagonista de la posterior fusión de dichos ritmos colombianos con sonidos tropicales y géneros populares de México como la música norteña y el sonidero y otros como el ska, el reggae, el rap y el hip-hop, entre otros..",
+
+    "videourl": "https://youtube.com/playlist?list=PLofghy0OIxVVf-67dy3nGQLHrAlJGM949",
+    "price": "$50",
+    "coverImg": "CelsoPiña.jpg",
+    "category": "Cumbia",
+    "location": "Mexico",
+    "locationImg": "mexiflag.jpg",
+    "openSpots": null,
+    "likes": 1000,
+    "websiteurl": "http://www.celso.mx//",
+    "youtube": "https://www.youtube.com/channel/UCkTVKrjdcOBVGuTJj38ShrA",
+    "facebook": "https://www.facebook.com/celso.pina",
+    "instagram": "https://www.instagram.com/celsopinaoficial/",
+    "twitter": "https://twitter.com/celsooficial",
+    "spotify": "https://open.spotify.com/artist/6PmfbeAL7jAauFPNyQ5UPi",
+    "deezer": "https://www.deezer.com/mx/artist/242926",
+    "apple": "https://music.apple.com/mx/artist/celso-pi%C3%B1a/2138501",
+    "soundcloud": "https://soundcloud.com/lasonoradinamita",
+    "tidal": "https://listen.tidal.com/artist/3510422",
+    "wiki": "https://en.wikipedia.org/wiki/Celso_Pi%C3%B1a",
+    "ticketmaster": "https://www.ticketmaster.com/celso-pina-tickets/artist/789445",
+    "tiktok": "https://www.tiktok.com/search?q=celso%20pina&t=1658086600586",
+    "napster": "https://web.napster.com/artist/celso-pina"
+}
+  ,
   {
     "id": 150,
     "title": "Fito Olivares",
@@ -110,66 +166,6 @@ const CardData9 = [
     "napster": "https://web.napster.com/artist/celia-cruz",
     "tiktok": "https://www.tiktok.com/@soyceliacruz"
 }
-,
-
-       {
-    "id": 176,
-    "title": "La Sonora Dinamita",
-    "description": "La Sonora Dinamita es una agrupación Mexicana y Colombiana exponente de música tropical, principalmente de la cumbia. Se fundó en 1960, en Medellín, Colombia, por iniciativa de Antonio Fuentes, con la voz líder del fallecido cantante Lucho Argaín colombiano naturalizado mexicano. En la actualidad han vendido entre 45 y 50 millones de copias en todo el mundo..",
-
-    "videourl": "https://youtube.com/playlist?list=PLF-cRDh2mrlUaEUi8KFNbN1T2oTNgZvDH",
-    "price": "$50",
-    "coverImg": "SonoraDinamita.jpg",
-    "category": "Cumbia",
-    "location": "Mexico",
-    "locationImg": "mexiflag.jpg",
-    "openSpots": null,
-    "likes": 1000,
-    "websiteurl": "http://www.originalsonoradinamita.com/",
-    "youtube": "https://www.youtube.com/channel/UCE_KPQxpcMDtV2zX1ru24Zg",
-    "facebook": "https://www.facebook.com/originalsonoradinamita",
-    "instagram": "https://www.instagram.com/sonora_dinamita/",
-    "twitter": "https://twitter.com/dinamitaonline",
-    "spotify": "https://open.spotify.com/artist/13or1Wf6ipcvSIiurZATvw",
-    "deezer": "https://www.deezer.com/mx/artist/616908",
-    "apple": "https://music.apple.com/mx/artist/la-sonora-dinamita/918315916",
-    "soundcloud": "https://soundcloud.com/lasonoradinamita",
-    "wiki": "https://en.wikipedia.org/wiki/La_Sonora_Dinamita",
-    "ticketmaster": "https://www.ticketmaster.com.mx/la-sonora-dinamita-boletos/artist/755214",
-    "tidal": "https://listen.tidal.com/artist/3609831",
-    "tiktok": "https://www.tiktok.com/@lasonoradinamitaoficial",
-    "napster": "https://web.napster.com/artist/la-sonora-dinamita"
-  },
-  {
-    "id": 177,
-    "title": "Celso Piña",
-    "description": "Celso Piña Arvizu (Monterrey; 6 de abril de 1953-ibídem. 21 de agosto de 2019) fue un cantante, compositor y acordeonista mexicano de música de distintos géneros. Fue pionero y uno de los principales exponentes en la composición e interpretación de música colombiana como cumbia colombiana y vallenato en su ciudad natal y su posterior expansión al norte de México y el sur de los Estados Unidos. También protagonista de la posterior fusión de dichos ritmos colombianos con sonidos tropicales y géneros populares de México como la música norteña y el sonidero y otros como el ska, el reggae, el rap y el hip-hop, entre otros..",
-
-    "videourl": "https://youtube.com/playlist?list=PLofghy0OIxVVf-67dy3nGQLHrAlJGM949",
-    "price": "$50",
-    "coverImg": "CelsoPiña.jpg",
-    "category": "Cumbia",
-    "location": "Mexico",
-    "locationImg": "mexiflag.jpg",
-    "openSpots": null,
-    "likes": 1000,
-    "websiteurl": "http://www.celso.mx//",
-    "youtube": "https://www.youtube.com/channel/UCkTVKrjdcOBVGuTJj38ShrA",
-    "facebook": "https://www.facebook.com/celso.pina",
-    "instagram": "https://www.instagram.com/celsopinaoficial/",
-    "twitter": "https://twitter.com/celsooficial",
-    "spotify": "https://open.spotify.com/artist/6PmfbeAL7jAauFPNyQ5UPi",
-    "deezer": "https://www.deezer.com/mx/artist/242926",
-    "apple": "https://music.apple.com/mx/artist/celso-pi%C3%B1a/2138501",
-    "soundcloud": "https://soundcloud.com/lasonoradinamita",
-    "tidal": "https://listen.tidal.com/artist/3510422",
-    "wiki": "https://en.wikipedia.org/wiki/Celso_Pi%C3%B1a",
-    "ticketmaster": "https://www.ticketmaster.com/celso-pina-tickets/artist/789445",
-    "tiktok": "https://www.tiktok.com/search?q=celso%20pina&t=1658086600586",
-    "napster": "https://web.napster.com/artist/celso-pina"
-}
-     
-
 
   ]
 
