@@ -48,16 +48,12 @@ section {
   position: absolute;
 }
 .headertext{
-  color: gold;
+  color: #f4c44b;
   font-family:'Henny Penny';
   font-size: 1.5rem;
   margin-top: 10px;
 }
-.entrytext2 {
-  color: green;
-  font-family: 'Water Brush';
-  font-size: 2rem;
-}
+
 
 .card--image {
   width: 100%;
