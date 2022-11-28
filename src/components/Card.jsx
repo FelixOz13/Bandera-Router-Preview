@@ -2,7 +2,7 @@ import ReactPlayer from 'react-player/lazy'
 import Clients from './Clients'
 import LikeButtons from './LikeButtons'
 import StarRating from './StarRating'
-
+import { GiBlackFlag } from 'react-icons/gi';
 import { FaFacebook } from 'react-icons/fa';
 import { FaSpotify } from 'react-icons/fa';
 import { FaTwitterSquare } from 'react-icons/fa';
@@ -15,11 +15,7 @@ import { FaSoundcloud } from 'react-icons/fa';
 import { SiTidal } from 'react-icons/si';
 import { FaNapster } from 'react-icons/fa';
 import Comments from "../Comments/Comments";
-import { BsFillPlayCircleFill } from 'react-icons/bs';
-import { FaShareSquare } from 'react-icons/fa';
-
-import { BsGlobe } from 'react-icons/bs'
-
+import {BsFillPlayCircleFill} from 'react-icons/bs';
 
 
 function Card(props) {
@@ -40,20 +36,15 @@ function Card(props) {
                 {badgeText && <div className="card--badge">{badgeText}</div>}
                 <img src={`../images/${props.item.coverImg}`} className="card--image" alt="card" />
                 <div className="notranslate">
-        <h1 className="card--title">{props.item.title}</h1>
-        
-        <p className="category">{props.item.category}</p>
-        
-      </div>
-      <StarRating />
-     
-      
-       
-      <img src={`../images/${props.item.locationImg}`} className="locationImg" alt="location" />
-     
+          <h1 className="card--title">{props.item.title}</h1>
+           <p className="category">{props.item.category}</p>
+        </div>
+      <StarRating/>
+        <img src={`../images/${props.item.locationImg}`} className="locationImg" alt="location" />
                 <p className="description">{props.item.description}</p>
+               <div>
                
-      <div>
+                   
                         <ReactPlayer
                             className ="video"    
                             width="280px"
@@ -64,22 +55,18 @@ function Card(props) {
             />
             </div> 
       <LikeButtons />
-      <div className="sharebutton">
-               <FaShareSquare/>
-                   </div>
       <div>
         <Comments
         commentsUrl="http://localhost:3004/comments"
         currentUserId="1"
           />
-      </div>
+          </div>
       <div className="slidertextdiv">
             <h1 className="slidertext">Presiona un Link para visitar la red social del artista</h1>
-      </div>
-      
+        </div>
         <div className='third-party-icons'>
        <a target="_blank" rel="noreferrer" href={props.item.websiteurl} className='icons-bandera' id="third-party-grid">
-          <BsGlobe /></a>
+          <GiBlackFlag /></a>
         
        <a target="_blank" rel="noreferrer" href={props.item.facebook} className='icons-fb' id="third-party-grid"><FaFacebook/></a>
                          
@@ -105,13 +92,10 @@ function Card(props) {
                   
         <a target="_blank" rel="noreferrer" href={props.item.napster} className='icons-napster' id="third-party-grid"><FaNapster />
         </a>
-        <a href={props.item.wiki} target="_blank" rel="noreferrer">
-          <img src="../images/wiki.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
-        </a>
-        
+        <a href= {props.item.wiki} target="_blank" rel="noreferrer">
+          <img src="../images/wiki.jpg" className="sponsor" alt="" media="(max-width: 400px)" /></a>
        <a href="https://www.informador.mx/" target="_blank" rel="noreferrer">
-          <img src="../images/informador.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
-        </a>
+          <img src="../images/informador.jpg" className="sponsor" alt="" media="(max-width: 400px)" /></a>
         
         <a href="https://www.mtvla.com/" target="_blank" rel="noreferrer">
           <img src="../images/mtv.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
@@ -127,9 +111,7 @@ function Card(props) {
       
         <div>
         <h2 className="contactheader">Bandera Musical</h2>
-        <img className="flag-logo2" src="../images/aguiladorada.jpeg" alt="" />
-        <img className="flag-logo2" src="../images/goldmusic2.png" alt="" />
-       
+        <img className="flag-logo2" src="../images/goldmusic2.png"  alt=""/>
         <h4 className="contact">contacto@banderamusical.com
           Whattsap-52+3324949195
         </h4>
