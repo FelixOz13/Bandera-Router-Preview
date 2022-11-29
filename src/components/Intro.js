@@ -9,9 +9,10 @@ function Intro() {
     <div>
       <Navbar />
       
-     <div>
+      <div>
+        <div className="notranslate">
         <h1 className="title">Bandera Musical</h1>
-        
+        </div>
         <h4 className="headertext"> Hola Paisano, Bienvenido a Bandera Musical!!!, Escoje el tipo de musica que mas te gusta`???</h4>
         
          <ButtonTreeCategories/>
@@ -19,8 +20,10 @@ function Intro() {
   <div className="introcard">
     <div className="introcard__content">
   
-      <div className="introcard__front">
-        <h3 className="introcard__title">Bandera Musical</h3>
+          <div className="introcard__front">
+            <div className ="notranslate">
+              <h3 className="introcard__title">Bandera Musical</h3>
+              </div>
         <p className="introcard__subtitle"></p>
       </div>
   
