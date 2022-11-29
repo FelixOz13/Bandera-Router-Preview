@@ -6,7 +6,6 @@ import Intro from './components/Intro'
 import Artists from './components/Artists'
 import Mariachi from './components/Mariachi';
 import Cumbias from './components/Cumbias';
-import Baladas from './components/Baladas';
 import RockEsp from './components/RockEsp';
 import RapTrap from './components/RapTrap';
 import ClassicRock from './components/ClassicRock';

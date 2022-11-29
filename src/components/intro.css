@@ -137,7 +137,11 @@ nav li {
   font-size: 2rem;
 }
 
-
+.video3{
+     display: block;
+    margin:20px;
+    height: auto;
+}
 
 
 
