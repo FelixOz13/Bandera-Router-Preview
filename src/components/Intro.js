@@ -13,7 +13,7 @@ function Intro() {
         <h1 className="title">Bandera Musical</h1>
         
         <h4 className="headertext"> Hola Paisano, Bienvenido a Bandera Musical!!!, Escoje el tipo de musica que mas te gusta`???</h4>
-        <h3 className="introcard__title"></h3>
+        
          <ButtonTreeCategories/>
   </div>
   <div className="introcard">

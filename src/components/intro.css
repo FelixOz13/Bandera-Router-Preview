@@ -23,8 +23,9 @@
   position: relative;
   padding: 15em 5em;
   transition: transform 3s;
-  background: pink;
+  background: black;
   transform-style: preserve-3d;
+  background-image: url("../bgimages/goldmusic2.png");
 }
 
 .introcard:hover .introcard__content {
