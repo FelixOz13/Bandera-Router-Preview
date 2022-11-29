@@ -4,9 +4,12 @@ import ButtonTreeCategories from "./ButtonTreeCategories";
 import Navbar from "./Navbar"
 
 
+
+
 function Intro() {
   return (
     <div>
+      <div>
       <Navbar />
       
       <div>
@@ -16,25 +19,28 @@ function Intro() {
         <h4 className="headertext"> Hola Paisano, Bienvenido a Bandera Musical!!!, Escoje el tipo de musica que mas te gusta`???</h4>
         
          <ButtonTreeCategories/>
-  </div>
-  <div className="introcard">
-    <div className="introcard__content">
-  
-          <div className="introcard__front">
-            <div className ="notranslate">
-              <h3 className="introcard__title">Bandera Musical</h3>
-              </div>
-        <p className="introcard__subtitle"></p>
-      </div>
-  
-      <div className="introcard__back">
-           <p className="introcard__body">Videos Musicales con Red Social </p> 
-          </div>
-          
         </div>
+        </div>
+      <div>
+        <video className="player-wrapper3"
+          width="100%"
+          height="100%"
+          autoplay
+          playsInline
+          loop
+          controls>
+          <source src="./images/Banderamusicalgreenspace.mp4" type="video/mp4"
+           />
+        </video>
+        
+          </div>
+     
+                        
+            
         <SponsorContainer/>
       </div>
-      </div>
+      
+      
   )
 }
 
