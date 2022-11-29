@@ -1,5 +1,31 @@
 const CardData3 = [
-    {
+     {
+   "id":66,
+   "title":"Pat Boy",
+   "description":"LOS ÁNGELES, EEUU — Jesús 'Pat Boy' Chablé, se ha convertido en un referente en el mundo del rap, pero no de uno cualquiera, si no del Rap Maya.El deseo del artista de preservar su cultura indígena, le llevó por una travesía que le ha convertido en un pionero de dicho género musical más allá de sus fronteras y en el proceso ha logrado dar visibilidad a su comunidad dentro y fuera de México.Pat Boy, en entrevista con la Voz de América dijo ser un rapero con una misión, que es la de “promover y preservar” su lengua natal y su cultura.“Soy exponente de rap en lengua maya orgullosamente..",
+   "videourl":"https://youtube.com/playlist?list=PL66mZR-Sq4J4xtMm8T2pWGbC_iuuEOVAt",
+   "price":50,
+   "coverImg":"Patboy.jpeg",
+   "category":"Rap Maya",
+   "location":"Mexico",
+   "locationImg":"mexiflag.jpg",
+   "openSpots": null,
+   "likes": 1000,
+   "websiteurl":"https://genius.com/albums/Bizarrap/Bzrp-music-sessions",
+   "youtube":"https://www.youtube.com/@mayapatboyrap",
+   "facebook":"https://www.facebook.com/Patboyrapmayaoficial/",
+   "instagram":"https://www.instagram.com/patboy_rap_mayaoficial/",
+   "twitter":"https://twitter.com/PatBoyrapmaya",
+   "spotify":"https://open.spotify.com/artist/7w2LEbH35jdB5RamMTuf40",
+   "deezer":"https://www.deezer.com/mx/artist/12530092",
+   "apple":"https://music.apple.com/mx/artist/pat-boy/1141511081",
+   "soundcloud":"https://soundcloud.com/pat-boy-rapmaya",
+   "tidal":"https://tidal.com/browse/artist/10004800",
+   "wiki":"https://en.wikipedia.org/wiki/Jes%C3%BAs_Pat_Chabl%C3%A9",
+   "ticketmaster":"https://www.viagogo.com.mx",
+   "tiktok":"https://www.tiktok.com/@patboyrapmaya?lang=es",
+   "napster":"https://us.napster.com/artist/patboy"
+   },{
    "id":66,
    "title":"Bizzarap",
    "description":"Gonzalo Julián Conde (nacido el 29 de agosto de 1998), conocido profesionalmente como Bizarrap , es un productor discográfico y DJ argentino . Se especializa en EDM , trap latino y rap . Es conocido por sus Bzrp Music Sessions, que graba con una amplia variedad de artistas.  Fue nominado a un Premio Grammy Latino a Mejor Productor en 2021.Gonzalo nació el 29 de agosto de 1998 en Ramos Mejía , Argentina. Se interesó por la música desde muy joven, y tenía interés en la música electrónica y los DJ , más que en cantar. Sus principales influencias fueron Skrillex , David Guetta y Martin Garrix . A los 14 años comenzó a estudiar solfeo, se matriculó en clases de piano y comenzó a producir sus primeras canciones. .",

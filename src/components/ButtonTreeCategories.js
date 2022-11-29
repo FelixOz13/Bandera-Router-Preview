@@ -8,7 +8,7 @@ function ButtonTreeCategories() {
       </Link> 
 
       <Link className="btn" to="/mariachi">
-        <img src="../images/regimex.jpeg" className="sponsor" alt="" media="(max-width: 400px)" />
+        <img src="../images/regimex1.png" className="sponsor" alt="" media="(max-width: 400px)" />
       </Link>
 
       <Link className="btn" to="/banda">

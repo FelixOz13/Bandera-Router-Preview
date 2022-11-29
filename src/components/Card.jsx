@@ -15,7 +15,8 @@ import { FaSoundcloud } from 'react-icons/fa';
 import { SiTidal } from 'react-icons/si';
 import { FaNapster } from 'react-icons/fa';
 import Comments from "../Comments/Comments";
-import {BsFillPlayCircleFill} from 'react-icons/bs';
+import { BsFillPlayCircleFill } from 'react-icons/bs';
+import { Link } from 'react-router-dom'
 
 
 function Card(props) {
@@ -109,11 +110,13 @@ function Card(props) {
         <Clients /> 
         </div>
       
-        <div>
-        <h2 className="contactheader">Bandera Musical</h2>
+      <div className="cardContainer">
+        <Link  to="/intro">
+          <img className="navbar-logo" src="../images/mobileregistered.png" alt="" />
+          </Link>
         <img className="flag-logo2" src="../images/aguiladorada.jpeg"  alt=""/>
-        <img className="flag-logo2" src="../images/goldmusic2.png"  alt=""/>
-        <h4 className="contact">contacto@banderamusical.com
+        <img className="flag-logo2" src="../images/goldmusic2.png" alt="" />
+         <h4 className="contact">contacto@banderamusical.com
           Whattsap-52+3324949195
         </h4>
       </div>  
