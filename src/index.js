@@ -15,6 +15,7 @@ import Alternative from './components/Alternative';
 
 
 import Reggae from './components/Reggae';
+import Reggaeton from './components/Reggaeton';
 import ClubMusic from './components/ClubMusic';
 import BandChannel from './BandChannels/BandChannel';
 import AngelesAzules from './BandChannels/AngelesAzules'
@@ -42,6 +43,7 @@ root.render(
         <Route path='/intro' element={<Intro />} />
         <Route path='/artists' element={<Artists />} />
         <Route path='/mariachi' element={<Mariachi />} />
+        <Route path='/reggaeton' element={<Reggaeton />} />
         <Route path='/cumbias' element={<Cumbias />} />
         <Route path='/rockesp' element={<RockEsp />} />
         <Route path='/raptrap' element={<RapTrap/>}/>

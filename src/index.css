@@ -88,15 +88,15 @@ section {
 }
 
 .contactheader {
-  margin-top: 20px;
+ 
   font-family: 'Asap Condensed';
   font-size: 1.5rem;
-  color: white;
   color: #f4c44b;
+  margin-bottom: -45px;
 }
 
 .contact {
-  margin-top: 10px;
+ 
   font-family: 'Asap Condensed';
   font-size: 1.2rem;
   color: #f4c44b;
@@ -105,10 +105,11 @@ section {
 
 
 .flag-logo2 {
-  width: 100px;
+  width: 70px;
   height: 70px;
-  margin-left: 10px;
-  margin-top: -8px;
+  text-align: center;
+  
+  
 }
 
 .navbar-logo {

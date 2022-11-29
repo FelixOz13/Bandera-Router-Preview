@@ -111,6 +111,7 @@ function Card(props) {
       
         <div>
         <h2 className="contactheader">Bandera Musical</h2>
+        <img className="flag-logo2" src="../images/aguiladorada.jpeg"  alt=""/>
         <img className="flag-logo2" src="../images/goldmusic2.png"  alt=""/>
         <h4 className="contact">contacto@banderamusical.com
           Whattsap-52+3324949195

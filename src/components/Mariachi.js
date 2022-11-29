@@ -25,7 +25,7 @@ export default function Mariachi() {
        
         <div>
         <Navbar />
-            
+           <h4 className="headertext">Escoje tu categoria? ? </h4> 
            <ButtonTreeCategories/>
             <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
             <div>
