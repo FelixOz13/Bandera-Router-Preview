@@ -28,6 +28,7 @@ function Intro() {
           autoplay
           playsInline
           loop
+          controls
           >
           <source src="./images/Banderamusicalgreenspace.mp4" type="video/mp4"
            />
