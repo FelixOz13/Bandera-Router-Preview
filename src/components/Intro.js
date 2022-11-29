@@ -30,7 +30,7 @@ function Intro() {
           loop
           controls
           >
-          <source src="./images/Banderamusicalgreenspace.mp4" type="video/mp4"
+          <source  src="./images/Banderamusicalgreenspace.mp4" type="video/mp4"
            />
         </video>
         
