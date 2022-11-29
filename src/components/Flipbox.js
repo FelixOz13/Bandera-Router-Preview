@@ -4,21 +4,19 @@ function Flipbox() {
   return (
     <div>
       <div className="navbar">
+        <Link className="btn" to="/intro">
+        <img className="navbar-logo" src="../images/mobileregistered.png" alt="" media="(max-width: 400px)" />
+      </Link>
       <div className="flip-box">
         <div className="flip-box-inner">
           
           
-            <div className="flip-box-front">
-              
-              <Link  to="/intro">
-                <img className="flag-logo3" src="../images/aguiladorada.jpeg" alt="Mexico" />
-                </Link>
+    <div className="flip-box-front">
+      <img className="flag-logo3" src="../images/goldmusic2.png" alt="Mexico"/>
           </div>
 
-            <div class="flip-box-back">
-               <Link  to="/intro">
-                <img className="flag-logo4" src="../images/goldmusic2.png" alt="Mexico" />
-                </Link>
+          <div class="flip-box-back">
+      <img className="flag-logo4" src="../images/aguiladorada.jpeg" alt="Mexico"/>
             </div>
           </div>
         </div>

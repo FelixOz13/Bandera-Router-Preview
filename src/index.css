@@ -907,7 +907,7 @@ section {
   background-color: transparent;
   width: 60px;
   height: 60px;
-  margin-left: 15px;
+  margin-left: 5px;
   /* Remove this if you don't want the 3D effect */
 }
 
@@ -925,7 +925,12 @@ section {
 }
 
 /* Position the front and back side */
-.flip-box-front,
+.flip-box-front {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+
+}
 .flip-box-back {
   position: absolute;
   width: 60px;
@@ -975,7 +980,4 @@ section {
   border-radius: 10%;
   cursor: pointer;
 
-}
-.cardContainer{
-  
 }

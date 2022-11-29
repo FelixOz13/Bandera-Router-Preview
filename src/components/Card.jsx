@@ -110,17 +110,19 @@ function Card(props) {
         <Clients /> 
         </div>
       
-      <div className="cardContainer">
-        <Link  to="/intro">
-          <img className="navbar-logo" src="../images/mobileregistered.png" alt="" />
-          </Link>
+      
+        <div>
+       <Link className="btn" to="/intro">
+        <img className="navbar-logo" src="../images/mobileregistered.png" alt="" media="(max-width: 400px)" />
+      </Link>
         <img className="flag-logo2" src="../images/aguiladorada.jpeg"  alt=""/>
-        <img className="flag-logo2" src="../images/goldmusic2.png" alt="" />
-         <h4 className="contact">contacto@banderamusical.com
+        <img className="flag-logo2" src="../images/goldmusic2.png"  alt=""/>
+        <h4 className="contact">contacto@banderamusical.com
           Whattsap-52+3324949195
         </h4>
-      </div>  
       </div>
+      </div>  
+    
       
      
       
