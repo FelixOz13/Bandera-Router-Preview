@@ -50,7 +50,7 @@
   background-image: url("../bgimages/flyingsungod.jpg");
   background-size: cover;
   background-blend-mode: overlay;
-  color: white;
+  color: goldenrod;
 }
 
 .introcard__front::before {
