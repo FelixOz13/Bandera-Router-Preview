@@ -41,17 +41,19 @@ section {
   color: #f4c44b;
 }
 
-.sharebutton{
-  font-size:25px;
+.sharebutton {
+  font-size: 25px;
   color: #dc9e02;
   background-color: black;
   position: absolute;
 }
-.headertext{
+
+.headertext {
   color: #f4c44b;
-  font-family:'Henny Penny';
+  font-family: 'Henny Penny';
   font-size: 1.5rem;
   margin-top: 10px;
+  text-align: center;
 }
 
 
@@ -67,7 +69,7 @@ section {
   text-overflow: ellipsis;
   font-size: 1.5rem;
   font-family: 'Bungee Shade';
-  color: #f4c44b;
+  color:#f4c44b ;
 }
 
 .card--stats {
@@ -503,7 +505,7 @@ section {
 }
 
 .icons-wiki {
-margin-top: 4px;
+  margin-top: 4px;
   margin-bottom: 2px;
   margin-right: 10px;
   font-size: 45px;
@@ -625,60 +627,6 @@ margin-top: 4px;
   margin: 6px;
 }
 
-/*Image Shaker */
- .sponsor:hover {
-  /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: shake 0.5s;
-
-  /* When the animation is finished, start again */
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% {
-    transform: translate(1px, 1px) rotate(0deg);
-  }
-
-  10% {
-    transform: translate(-1px, -2px) rotate(-1deg);
-  }
-
-  20% {
-    transform: translate(-3px, 0px) rotate(1deg);
-  }
-
-  30% {
-    transform: translate(3px, 2px) rotate(0deg);
-  }
-
-  40% {
-    transform: translate(1px, -1px) rotate(1deg);
-  }
-
-  50% {
-    transform: translate(-1px, 2px) rotate(-1deg);
-  }
-
-  60% {
-    transform: translate(-3px, 1px) rotate(0deg);
-  }
-
-  70% {
-    transform: translate(3px, 1px) rotate(-1deg);
-  }
-
-  80% {
-    transform: translate(-1px, -1px) rotate(1deg);
-  }
-
-  90% {
-    transform: translate(1px, 2px) rotate(0deg);
-  }
-
-  100% {
-    transform: translate(1px, -2px) rotate(-1deg);
-  }
-}
 
 
 .sponsor:hover {
@@ -691,6 +639,7 @@ margin-top: 4px;
   border-radius: 10%;
   cursor: pointer;
 }
+
 .channel-component {
   display: flex;
   flex-wrap: wrap;
@@ -705,12 +654,14 @@ margin-top: 4px;
   border-radius: 20%;
   margin: 0px;
 }
-.channelcardtitle{
-  padding:5px;
+
+.channelcardtitle {
+  padding: 5px;
   background-color: black;
   border-radius: 10px;
-  color:goldenrod;
+  color: goldenrod;
 }
+
 .channelcardtitle :hover {
   background-image: linear-gradient(to right, #dc9e02,
       black,
@@ -993,25 +944,29 @@ margin-top: 4px;
   height: 60px;
   margin-left: 215px;
 }
-.btn{margin:1px;
+
+.btn {
+  margin: 1px;
 }
+
 .btn2 {
-  position:relative;
-  left:110px;
-  bottom:-10px;
-    width: 50px;
-    height:70px;
-    text-align:center;
-    font-size: 45px;
-    background-image: linear-gradient(to right, red, white,green);
-    color: black;
-    border-radius: 10px;
+  position: relative;
+  left: 110px;
+  bottom: -10px;
+  width: 50px;
+  height: 70px;
+  text-align: center;
+  font-size: 45px;
+  background-image: linear-gradient(to right, red, white, green);
+  color: black;
+  border-radius: 10px;
 }
+
 .btn2:hover {
   background-image: linear-gradient(to right, green, white, red);
   max-width: 95px;
   max-height: 95px;
   border-radius: 10%;
   cursor: pointer;
-  
+
 }
