@@ -11,24 +11,13 @@ import RockEsp from './components/RockEsp';
 import RapTrap from './components/RapTrap';
 import ClassicRock from './components/ClassicRock';
 import Alternative from './components/Alternative';
-
-
-
+import Banda from './components/Banda';
+import Norteño from './components/Norteño';
 import Reggae from './components/Reggae';
 import Reggaeton from './components/Reggaeton';
 import ClubMusic from './components/ClubMusic';
-import BandChannel from './BandChannels/BandChannel';
-import AngelesAzules from './BandChannels/AngelesAzules'
-import Raymix from './BandChannels/Raymix'
-import ACDC from './BandChannels/ACDC'
-import Aczino from './BandChannels/Aczino'
-import FiftyCent from './BandChannels/FiftyCent'
-import TercerElemento from './BandChannels/TercerElemento'
-import ThreeDoorsDown from './BandChannels/ThreeDoorsDown'
-import Adele from './BandChannels/Adele'
-import BobMarley from './BandChannels/BobMarley'
-import RHCP from './BandChannels/RHCP'
-import Jamiroquai from './BandChannels/Jamiroquai'
+
+
 import { BrowserRouter as Router, Routes, Route, Navigate,  } from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -43,6 +32,8 @@ root.render(
         <Route path='/intro' element={<Intro />} />
         <Route path='/artists' element={<Artists />} />
         <Route path='/mariachi' element={<Mariachi />} />
+        <Route path='/banda' element={<Banda />} />
+        <Route path='/norteño' element={<Norteño />} />
         <Route path='/reggaeton' element={<Reggaeton />} />
         <Route path='/cumbias' element={<Cumbias />} />
         <Route path='/rockesp' element={<RockEsp />} />
@@ -52,19 +43,8 @@ root.render(
         <Route path='/alternative' element={<Alternative />} />
         <Route path='/reggae' element={<Reggae />} />
         <Route path='/clubmusic' element={<ClubMusic />} />
-        <Route path='/bandchannel' element={<BandChannel />} />
-        <Route path='/angelesazules' element={<AngelesAzules />} />
-        <Route path='/adele' element={<Adele />} />
-        <Route path='/raymix' element={<Raymix />} />
-        <Route path='/acdc' element={<ACDC />}/>
-        <Route path='/aczino' element={<Aczino />} />
-        <Route path='/fiftycent' element={<FiftyCent/>}/>
-        <Route path='/bobmarley' element={<BobMarley />} />
-        <Route path='/rhcp' element={<RHCP />} />
-        <Route path='/jamiroquai' element={<Jamiroquai />} />
-        <Route path='/threedoorsdown' element={<ThreeDoorsDown />} />
-        <Route path='/tercerelemento' element={<TercerElemento />} />
-        <Route path='/threedoorsdown' element={<ThreeDoorsDown />} />
+        
+        
     </Routes>
     </Router>,
   </div>
