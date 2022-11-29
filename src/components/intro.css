@@ -67,7 +67,7 @@
 }
 
 .introcard__title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   transform: var(--level-three);
   order: 2;
   text-transform: uppercase;
