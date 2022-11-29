@@ -17,7 +17,8 @@ import ButtonTreeCategories from "./ButtonTreeCategories";
 function Alternative() {
   return (
     <div>
-        <Navbar />
+      <Navbar />
+      <h1 className="title2">Rock Alternativo</h1>
          <h4 className="headertext">Escoje tu categoria? ? </h4>
       <ButtonTreeCategories/>
       <h1 className="slidertext">Presiona un Link para visitar la red social del artista</h1>

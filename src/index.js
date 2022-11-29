@@ -16,6 +16,7 @@ import Norteño from './components/Norteño';
 import Reggae from './components/Reggae';
 import Reggaeton from './components/Reggaeton';
 import ClubMusic from './components/ClubMusic';
+import Pop from './components/Pop';
 
 
 import { BrowserRouter as Router, Routes, Route, Navigate,  } from 'react-router-dom'
@@ -39,7 +40,7 @@ root.render(
         <Route path='/rockesp' element={<RockEsp />} />
         <Route path='/raptrap' element={<RapTrap/>}/>
         <Route path='/classicrock' element={<ClassicRock />} />
-        <Route path='/baladas' element={<Baladas />} />
+        <Route path='/pop' element={<Pop />} />
         <Route path='/alternative' element={<Alternative />} />
         <Route path='/reggae' element={<Reggae />} />
         <Route path='/clubmusic' element={<ClubMusic />} />

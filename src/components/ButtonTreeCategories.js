@@ -42,7 +42,7 @@ function ButtonTreeCategories() {
         <img src="../images/alternativelogo.png" className="sponsor" alt="" media="(max-width: 400px)" />
       </Link>
 
-      <Link className="btn" to="/baladas">
+      <Link className="btn" to="/pop">
         <img src="../images/pop.jpeg" className="sponsor" alt="" media="(max-width: 400px)" />
       </Link>
 

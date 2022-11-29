@@ -16,7 +16,8 @@ const cards11 = CardData11.map(item => {
 function Reggaeton() {
   return (
     <div>
-        <Navbar />
+      <Navbar />
+      <h1 className="title2">Reggaeton y Bachatta</h1>
       <h4 className="headertext">Escoje tu categoria? ? </h4>
       <ButtonTreeCategories />
       <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>

@@ -19,7 +19,8 @@ const cards6 = CardData6.map(item => {
 function ClassicRock() {
   return (
    <div>
-        <Navbar />
+          <Navbar />
+          <h1 className="title2">Rock Clasico Americano</h1>
          <h4 className="headertext">Escoje tu categoria? ? </h4>
       <ButtonTreeCategories />
       <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>

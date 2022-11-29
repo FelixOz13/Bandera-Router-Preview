@@ -17,7 +17,8 @@ const cards5 = CardData5.map(item => {
 function Reggae() {
   return (
    <div>
-        <Navbar />
+      <Navbar />
+      <h1 className="title2">Musica Reggae</h1>
          <h4 className="headertext">Escoje tu categoria? ? </h4>
           <ButtonTreeCategories />
           <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>

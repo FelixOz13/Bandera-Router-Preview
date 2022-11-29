@@ -20,7 +20,8 @@ function Banda() {
     })
   return (
     <div>
-        <Navbar />
+          <Navbar />
+          <h1 className="title2">Banda Instrumental</h1>
            <h4 className="headertext">Escoje tu categoria? ? </h4> 
            <ButtonTreeCategories/>
             <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>

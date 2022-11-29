@@ -2,8 +2,7 @@
 
 function SponsorContainer() {
   return (
-    <div>
-      <div className="sponsorcontainer1">
+    <div><div className="sponsorcontainer1">
            <a href="https://www.viagogo.com.mx/" target="_blank" rel="noreferrer">
           <img src="../images/viagogo.jpeg" className="sponsor" alt="" media="(max-width: 400px)" />
       </a>
@@ -12,7 +11,7 @@ function SponsorContainer() {
       <img src="../images/ollitas2.jpeg" className="sponsor"   alt="" media="(max-width: 400px)" />
       </a>
 
-      <a href="https://www.tecate.com/en" target="_blank" rel="noreferrer">
+      <a href="https://tecate.com/codigotecate/agegate" target="_blank" rel="noreferrer">
       <img src="../images/tecate.jpg" className="sponsor" alt=""  media="(max-width: 400px)" />
       </a>
 
@@ -29,6 +28,13 @@ function SponsorContainer() {
         </a>
        <a href="https://cerveceriachapultepec.com/" target="_blank" rel="noreferrer">
         <img src="../images/chapulogo.jpg" className="sponsor"   alt="" media="(max-width: 400px)" />
+        </a>
+        
+         <a href="https://www.indierocks.mx/tv/" target="_blank" rel="noreferrer">
+        <img src="../images/indierocks.jpg" className="sponsor" id="third-party-grid" alt="" media="(max-width: 400px)" />
+        </a>
+         <a href="https://www.merchbar.com/" target="_blank" rel="noreferrer">
+          <img src="../images/merchbar.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
         </a>
       <a href="https://www.billboard.com/charts/hot-100/  " target="_blank" rel="noreferrer">
         <img src="../images/billboard.jpeg" className="sponsor"  alt="" media="(max-width: 400px)" />
