@@ -1,12 +1,11 @@
-import { Link } from 'react-router-dom'
+import React from 'react'
 
 function Flipbox() {
   return (
     <div>
       <div className="navbar">
-        <Link className="btn" to="/intro">
-        <img className="navbar-logo" src="../images/mobileregistered.png" alt="" media="(max-width: 400px)" />
-      </Link>
+        <img className="navbar-logo" src="../images/mobileregistered.png" alt="" />
+        
       <div className="flip-box">
         <div className="flip-box-inner">
           

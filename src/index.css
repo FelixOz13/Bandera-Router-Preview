@@ -145,15 +145,6 @@ section {
 
 
 
-
-
-.caliente {
-  width: 60px;
-  height: 60px;
-  border-radius: 20%;
-  margin: 10px;
-}
-
 .intro {
   background-color: black;
   text-align: center;
@@ -716,7 +707,7 @@ section {
 .navbar-logo {
   position: absolute;
   top: 5px;
-  left: 20px;
+  left: 80px;
   transform: translate(5%, 50%);
 
 
@@ -907,7 +898,8 @@ section {
   background-color: transparent;
   width: 60px;
   height: 60px;
-  margin-left: 5px;
+  margin-left: 15px;
+  
   /* Remove this if you don't want the 3D effect */
 }
 
@@ -939,13 +931,13 @@ section {
 }
 
 .flip-box-back {
-  transform: rotateY(180deg);
+  transform: rotateY(520deg);
 }
 
 .flag-logo3 {
   width: 60px;
   height: 60px;
-  margin-left: 215px;
+  margin-right: 5px;
 
 
 }
@@ -953,7 +945,7 @@ section {
 .flag-logo4 {
   width: 60px;
   height: 60px;
-  margin-left: 215px;
+  margin-left: 285px;
 }
 
 .btn {
