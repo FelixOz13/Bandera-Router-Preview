@@ -27,11 +27,12 @@ function Home() {
       <div className="hero">
         <h4 className="headertext"> Tal vez prefieras un Arista en Especial`???</h4>
         <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
-        <img className="indianaut" src="./images/indianaut.png" alt=""/>
+        <img className="indianaut" src="./images/indianaut.png" alt="" />
+        <div>
           <section className="cards-list">
                {cards}
         </section>
-        
+        </div>
       
         <SponsorContainer/>
        

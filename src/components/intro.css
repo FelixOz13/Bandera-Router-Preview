@@ -146,8 +146,8 @@ nav li {
 
    
              .indianaut {
-               width: 15%;
-               height: 15%;
+               width: 12%;
+               height: 12%;
                position: relative;
                animation-delay: 3s;
                border-radius: 50%;
@@ -172,7 +172,7 @@ nav li {
                }
       
                to {
-                 left: 1330px;
+                 left: 1300px;
       
                }
       
