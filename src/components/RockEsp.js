@@ -21,9 +21,11 @@ function RockEsp() {
    <div>
           <Navbar />
           <h1 className="title2">Rock en Español</h1>
-         <h4 className="headertext">Escoje tu categoria? ? </h4>
+          <h4 className="headertext">Escoje tu categoria? ? </h4>
+          <img className="indianaut2" src="./images/indianaut.png" alt=""/>
       <ButtonTreeCategories />
-      <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
+          <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
+          <img className="indianaut" src="./images/indianaut.png" alt=""/>
             <section className="cards-list">
                {cards7}
             </section>

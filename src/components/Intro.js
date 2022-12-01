@@ -18,7 +18,7 @@ function Intro() {
         <h1 className="title2">Bandera Musical</h1>
         </div>
         <h4 className="headertext"> Hola Paisano, Bienvenido a Bandera Musical!, Escoje el tipo de musica que mas te gusta`???</h4>
-        
+        <img className="indianaut" src="./images/indianaut.png" alt=""/>
          <ButtonTreeCategories/>
         </div>
         </div>
@@ -32,7 +32,8 @@ function Intro() {
           muted={true}
           playsInline={true}>
          <source src="./images/Banderamusicalgreenspace.mp4" type="video/mp4"/>
-  </video>
+      </video>
+      <img className="indianaut2" src="./images/indianaut.png" alt=""/>
         
    
         
