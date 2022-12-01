@@ -22,7 +22,7 @@ function Clubmusic() {
             <Navbar />
             <h1 className="title2">Musica Electronica</h1>
             <h4 className="headertext">Escoje tu categoria? ? </h4>
-            <img className="indianaut" src="./images/indianaut.png" alt="" />
+            
             
          <ButtonTreeCategories/>
             <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>

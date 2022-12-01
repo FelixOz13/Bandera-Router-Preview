@@ -143,80 +143,41 @@ nav li {
     height: auto;
 }
 
-.indianaut {
-  width: 12%;
-  height: 12%;
-  position: relative;
-  animation-delay: 3s;
-  border-radius: 50%;
-  margin-left: 5px;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  animation-iteration-count: infinite;
-  animation: indianaut 5s infinite;
-  animation-timing-function: ease;
-  -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-  
-  }
- 
 
-
-
-@keyframes indianaut {
-  from {
-      left: 0px;
-      
-    }
-  
-    to {
-      left: 1000px;
-      
-    }
-        from {
-          bottom: 0px;
-        }
-    
-        to {
-          bottom: 0px;
-        }
-  }
    
-        .indianaut2 {
-          width: 12%;
-            height: 12%;
-            position: relative;
-            animation-delay: 3s;
-            border-radius: 50%;
-            margin-left: 5px;
-            animation-iteration-count: infinite;
-              animation: indianaut 5s infinite;
-              animation-timing-function: ease;
-              animation-direction: reverse;
-              
-            
-          }
-    
-    
-    
-        @keyframes indianaut2 {
-          from {
-            right: 0px;
-    
-          }
-    
-          to {
-            right: 1000px;
-    
-          }
-                     from {
-                       top: 0px;
-                     }
-          
-                     to {
-                       top: 500px;
-        }
-      }
+             .indianaut {
+               width: 12%;
+               height: 12%;
+               position: relative;
+               animation-delay: 3s;
+               border-radius: 50%;
+               margin-left: 5px;
+               -webkit-transform: scaleX(-1);
+               transform: scaleX(-1);
+               animation-iteration-count: infinite;
+               animation: indianaut 9s infinite;
+               animation-timing-function: ease;
+               -webkit-transform: scaleX(-1);
+               transform: scaleX(-1);
+      
+             }
+      
+      
+      
+      
+             @keyframes indianaut {
+               from {
+                 left: 0px;
+      
+               }
+      
+               to {
+                 left: 1330px;
+      
+               }
+      
+               
+             }
   
       
     
