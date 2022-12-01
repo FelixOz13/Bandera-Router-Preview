@@ -23,7 +23,7 @@ function Home() {
      <div>
       <Navbar/>
       <h4 className="headertext"> Hola Paisano, Bienvenido a Bandera Musical!!!, Escoje el tipo de musica que mas te gusta`???</h4>
-      
+      <ButtonTreeCategories/>
       <div className="hero">
         <h4 className="headertext"> Tal vez prefieras un Arista en Especial`???</h4>
         <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
