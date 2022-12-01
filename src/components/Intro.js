@@ -23,19 +23,18 @@ function Intro() {
         </div>
         </div>
       <div className="video3">
-        <video className="player-wrapper3"
-          autoPlay={true}
-          muted 
+    
+        <div dangerouslySetInnerHTML={{ __html: `
+        <video
+          className="player-wrapper3"
           loop
-          playsInline
-          
-          
-          width="100%"
-          height="100%"
-          >
-          <source  src="./images/Banderamusicalgreenspace.mp4" type="video/mp4"
-           />
-        </video>
+          muted
+          autoplay
+          playsinline
+          src="./images/Banderamusicalgreenspace.mp4"
+          type="video/mp4"
+        />,
+      ` }}></div>
         
           </div>
      
