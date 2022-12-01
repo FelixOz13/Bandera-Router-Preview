@@ -6,6 +6,7 @@ import Navbar from "./Navbar"
 
 
 
+
 function Intro() {
   return (
     <div>
@@ -23,12 +24,12 @@ function Intro() {
         </div>
       <div className="video3">
         <video className="player-wrapper3"
+          autoPlay ={true}
+          muted
+          loop
+          
           width="100%"
           height="100%"
-          autoplay
-          playsInline
-          loop
-          controls
           >
           <source  src="./images/Banderamusicalgreenspace.mp4" type="video/mp4"
            />
