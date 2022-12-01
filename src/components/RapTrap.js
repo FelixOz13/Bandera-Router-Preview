@@ -24,7 +24,7 @@ function RapTrap() {
       <img className="indianaut" src="./images/indianaut.png" alt=""/>
       <ButtonTreeCategories />
       <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
-      <img className="indianaut2" src="./images/indianaut.png" alt=""/>
+      <img className="indianaut" id="ind2" src="./images/indianaut.png" alt=""/>
             <section className="cards-list">
                {cards3}
             </section>

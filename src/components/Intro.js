@@ -33,7 +33,7 @@ function Intro() {
           playsInline={true}>
          <source src="./images/Banderamusicalgreenspace.mp4" type="video/mp4"/>
       </video>
-      <img className="indianaut2" src="./images/indianaut.png" alt=""/>
+      
         
    
         

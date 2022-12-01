@@ -23,7 +23,7 @@ function Home() {
      <div>
       <Navbar/>
       <h4 className="headertext"> Hola Paisano, Bienvenido a Bandera Musical!!!, Escoje el tipo de musica que mas te gusta`???</h4>
-      <img className="indianaut2" src="./images/indianaut.png" alt=""/>
+      <img className="indianaut" id="ind2" src="./images/indianaut.png" alt=""/>
        <ButtonTreeCategories/>
       <div className="hero">
         <h4 className="headertext"> Tal vez prefieras un Arista en Especial`???</h4>

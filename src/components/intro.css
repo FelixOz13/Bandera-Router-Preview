@@ -147,100 +147,37 @@ nav li {
   width: 12%;
   height: 12%;
   position: relative;
-   
   animation-name: indianaut;
   animation-duration: 12s;
   animation-delay: 3s;
   border-radius: 50%;
   margin-left: auto;
-  
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
   animation-iteration-count: infinite;
-  animation-direction: reverse;
+  animation: indianaut 5s infinite;
+  animation-timing-function: ease;
   
+  }
+  #ind2{animation-timing-function: ease-in;
+  animation-direction:reverse;
 }
 
 @keyframes indianaut {
-  
-      0% {
-      
-          left: 0px;
-          top: 500px;
-        }
-  
-      25% {
-        
-        right: 1000px;
-        top: 0px;
-      }
-  
-      50% {
-       
-        right: 0px;
-        top: 0px;
-      }
-  
-      75% {
-        
-        left: 1000px;
-        top: 0px;
-      }
-  
-      100% {
-       
-        right: 1000px;
-        top: 500px;
-      }
+  from {
+      left: 0px;
     }
+  
+    to {
+      left: 1000px;
+    }
+  }
+  
+      
+    
 
-        .indianaut2 {
-          width: 12%;
-          height: 12%;
-          position: relative;
-          
-          animation-name: indianaut2;
-          animation-duration: 12s;
-          animation-delay: 5s;
-          border-radius: 50%;
-          margin-left:5px;
-          -webkit-transform: scaleX(-1);
-            transform: scaleX(-1);
-          animation-iteration-count: infinite;
-          animation-direction: reverse;
-    
-        }
-    
-        @keyframes indianaut2 {
-    
-          0% {
-          
-              left: 1000px;
-              top: 1000px;
-            }
-          
-            25% {
-          
-              right: 0px;
-              top: 0px;
-            }
-          
-            50% {
-          
-              right: 1000px;
-              top: 0px;
-            }
-          
-            75% {
-          
-              left: 0px;
-              top: 0px;
-            }
-          
-            100% {
-          
-              right: 0px;
-              bottom: 1000px;
-            }
-        }
+        
+        
 
 
 
