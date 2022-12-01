@@ -25,8 +25,8 @@ function Intro() {
       <div className="video3">
         <video className="player-wrapper3"
           autoPlay ={true}
-          muted
-          loop
+          muted ={true}
+          loop ={true}
           
           width="100%"
           height="100%"
