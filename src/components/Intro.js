@@ -27,7 +27,7 @@ function Intro() {
           autoPlay={true}
           muted 
           loop
-          playsInline={true}
+          playsInline
           
           
           width="100%"
