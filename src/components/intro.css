@@ -163,13 +163,17 @@ nav li {
   animation-direction:reverse;
 }
 
+
+
 @keyframes indianaut {
   from {
       left: 0px;
+      
     }
   
     to {
       left: 1000px;
+      
     }
   }
   
