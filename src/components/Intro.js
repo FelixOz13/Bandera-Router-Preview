@@ -22,26 +22,28 @@ function Intro() {
          <ButtonTreeCategories/>
         </div>
         </div>
-      <div className="video3">
-    
-        <div dangerouslySetInnerHTML={{ __html: `
-        <video
-          className="player-wrapper3"
-          loop
-          muted
-          autoplay
-          playsinline
-          src="./images/Banderamusicalgreenspace.mp4"
-          type="video/mp4"
-        />,
-      ` }}></div>
+      
+      <video
+          className="player-wrapper-3"
+          width="100%"
+          height="100%"
+          autoPlay={true}
+          loop={true}
+          muted={true}
+          playsInline={true}>
+         <source src="./images/Banderamusicalgreenspace.mp4" type="video/mp4"/>
+  </video>
         
-          </div>
+   
+        
+        
+         
      
                         
             
         <SponsorContainer/>
-      </div>
+    </div>
+  
       
       
   )
