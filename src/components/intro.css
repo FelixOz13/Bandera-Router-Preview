@@ -147,21 +147,19 @@ nav li {
   width: 12%;
   height: 12%;
   position: relative;
-  animation-name: indianaut;
-  animation-duration: 12s;
   animation-delay: 3s;
   border-radius: 50%;
-  margin-left: auto;
+  margin-left: 5px;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   animation-iteration-count: infinite;
   animation: indianaut 5s infinite;
   animation-timing-function: ease;
+  -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
   
   }
-  #ind2{animation-timing-function: ease-in;
-  animation-direction:reverse;
-}
+ 
 
 
 
@@ -176,6 +174,38 @@ nav li {
       
     }
   }
+   
+        .indianaut2 {
+          width: 12%;
+          height: 12%;
+          position: relative;
+          
+          animation-delay: 3s;
+          border-radius: 50%;
+          margin-left: auto;
+          -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+          animation-iteration-count: infinite;
+          animation: indianaut 5s infinite;
+          animation-timing-function: ease-in;
+          
+          
+    
+        }
+    
+    
+    
+        @keyframes indianaut2 {
+          from {
+            right: 0px;
+    
+          }
+    
+          to {
+            right: 1000px;
+    
+          }
+        }
   
       
     
