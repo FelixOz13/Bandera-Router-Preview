@@ -132,7 +132,7 @@ nav a,
 nav li {
   display: inline;
   margin: 20px;
-  color: red;
+  
   font-family: 'Notable';
   font-size: 2rem;
 }
@@ -172,7 +172,7 @@ nav li {
                }
       
                to {
-                 left: 300px;
+                 left: 650px;
       
                }
       
